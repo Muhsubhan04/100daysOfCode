@@ -1,0 +1,14 @@
+package main;
+
+public class do_while {
+    
+    public static void main(String[] args) {
+        int Angka = 1;
+            do {
+                System.out.println("Angka:" + Angka);
+                Angka++;
+                }
+            while (Angka <= 50);
+    }
+
+}
