@@ -1,0 +1,15 @@
+package hari_11_Scanner;
+
+import java.util.Scanner;
+
+public class Scannar {
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+        int nilaiPreTest = 60;
+       if(nilaiPreTest<50){ 
+           System.out.println("Lulus");
+       }else{
+           System.out.println("Tudak lulus");
+       }
+    }
+}
