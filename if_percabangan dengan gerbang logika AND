@@ -1,0 +1,18 @@
+package coding_100hari;
+
+
+public class if_percabangan {
+    public static void main(String[] args) {
+        int umur = 23;
+        boolean mapan = true;
+        boolean belum_siap = false;
+        
+        if(umur < 23 && belum_siap){
+            System.out.println("Jangan dipaksakan");
+        }if(umur >= 23 && mapan){
+            System.out.println("Gas pelaminan wkwkw");
+        }else{
+            System.out.println("Minimal Bermanfaat lah");
+        }
+    }
+}
