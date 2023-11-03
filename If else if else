@@ -1,0 +1,21 @@
+package days25;
+
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+       int praktikum = 0;
+       Scanner input = new Scanner(System.in);
+        System.out.println("Berapa kali gagal praktikum: ");
+        praktikum = input.nextInt();
+        if(praktikum >= 5){
+            System.out.println("MOhon Maaf Anda Sudah Gagal");
+        }else{
+            System.out.println("Masih punya kesempatan, manfaatkan sebaik-baiknya");
+        }
+        System.out.println("TETAP SEMANGAT JANGAN MENYERAH");
+    }
+
+}
